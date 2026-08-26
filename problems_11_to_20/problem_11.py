@@ -1,7 +1,6 @@
 from pathlib import Path
 
 
-
 def max_row_multiple(mat, window_size):
     """calculates the max multiple of the given window size adjacent elements in the same row
     in a square matrix. 
