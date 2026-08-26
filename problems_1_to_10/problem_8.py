@@ -1,6 +1,9 @@
 from collections import deque
+from pathlib import Path
+
 
 window_size = 13
+this_dir = Path(__file__).resolve().parent
 number_file = "problem_8.txt"
 
 def fill_window(fl, size):
@@ -31,7 +34,7 @@ def fill_window(fl, size):
     return q, product
 
 
-with open(number_file, 'r') as fl:
+with open(this_dir / number_file, 'r') as fl:
     q, curr_mult = fill_window(fl, window_size)
     if q is None:
         raise ValueError("not enough digits in file")
