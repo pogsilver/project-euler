@@ -26,11 +26,11 @@ Needed by: `problem_3`, `problem_7`, `problem_10`, `problem_12`, `problem_27`.
 
 ## Running a solution
 
-```bashHere is the first batch out of 3 batches - wait until I tell you that I have uploaded all batches
+```bash
 python problem_N.py
 ```
 
-Each script prints its answer to stdout.
+Where N is the number of the problem. Each script prints its answer to stdout.
 
 ## Problems 1–10
 
